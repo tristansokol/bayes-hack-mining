@@ -1,0 +1,31 @@
+application: bayes-hack-mining
+version: 3
+runtime: php
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /main\.js
+  static_files: main.js
+  upload: main\.js
+
+- url: /style\.css
+  static_files: style.css
+  upload: style\.css
+
+- url: /js
+  static_dir: js
+
+- url: /css
+  static_dir: css
+
+- url: /data\.json
+  static_files: data.json
+  upload: data\.json
+
+- url: .*
+  script: main.php

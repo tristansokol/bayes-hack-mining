@@ -1,0 +1,82 @@
+html{
+	background-color: rgb(50,50,50);
+	font-size: 24px;
+	font-family: Futura,"Trebuchet MS",Arial,sans-serif;
+	background-image: url("http://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Schlaegel_und_eisen-sign_of_mining.svg/1000px-Schlaegel_und_eisen-sign_of_mining.svg.png");
+	background-size: cover;
+
+}
+body{
+	height: 100%;
+	background-color: transparent;
+	color:rgba(255,255,255,0.8);
+}
+h1{
+	color: rgba(255,255,255,0.8);
+}
+.has-tip{
+	color: rgb(255,255,255);
+	text-decoration: none;
+	border:none;
+	font-size: 10px;
+	font-weight: normal;
+}
+.has-tip:hover{
+	color: rgba(255,255,255,0.7);
+}
+.panel {
+	background-color: rgba(242,242,242,0.4);
+	border:none;
+}
+#example{
+	background-color: rgba(242,242,242,0.4);
+	
+	margin: 0px auto 0px auto;
+	height: 20px;
+	font-size: 12px;
+}
+#example:focus,#example{
+	outline: none;
+	border: none;
+	box-shadow: none;
+}
+#maintable{
+	border: solid rgba(242,242,242,0.4) thin;
+}
+#maintable .tablerow{
+	border-top: solid rgba(242,242,242,0.4) thin;
+
+}
+#maintable h3{
+	color:rgba(255,255,255,0.8);
+	font-weight: bold;
+}
+.risky{
+	background-color: red;
+	color:black;
+}
+.medium{
+	background-color: yellow;
+	color:black;
+}
+.good{
+	background-color: green;
+	color:black;
+}
+.values{
+	font-size: 14px;
+}
+.panel strong{
+	color:rgb(43, 166, 203);
+}
+table{
+	background-color: transparent;
+	width: 100%
+}
+table tr.even, table tr.alt, table tr:nth-of-type(even){
+	background-color: rgba(255,255,255,0.2);
+}
+table tr td{
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
